@@ -403,7 +403,7 @@ button {
   fill: currentColor;
 }
 /*=========Footer========*/
-.footer-bloc {
+.footer-div {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
