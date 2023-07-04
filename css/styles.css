@@ -403,6 +403,10 @@ button {
   fill: currentColor;
 }
 /*=========Footer========*/
+.footer-bloc {
+  display: flex;
+  align-items: baseline;
+}
 .logotipe {
   color: var(--logotipe-blu, #4d5ae5);
   font-size: 18px;
@@ -437,10 +441,15 @@ span.ingredient {
   width: 264px;
 }
 
-.footer-div {
+.footer-bloc {
   margin: auto;
+  display: flex;
+  align-items: baseline;
 }
 /*======Social-media=======*/
+.footer-social {
+  margin-right: 120px;
+}
 .main-social-media {
   color: var(--white, #fff);
   font-size: 16px;
