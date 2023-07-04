@@ -386,10 +386,7 @@ button {
   border-color: #404bbf;
   color: #404bbf;
 }
-.customers-item {
-  display: flex;
-  gap: 24px;
-}
+
 .customers-icon {
   fill: currentColor;
 }
