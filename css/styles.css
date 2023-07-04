@@ -406,6 +406,7 @@ button {
 .footer-bloc {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 .logotipe {
   color: var(--logotipe-blu, #4d5ae5);
@@ -447,9 +448,7 @@ span.ingredient {
   align-items: baseline;
 }
 /*======Social-media=======*/
-.footer-social {
-  margin-right: 120px;
-}
+
 .main-social-media {
   color: var(--white, #fff);
   font-size: 16px;
