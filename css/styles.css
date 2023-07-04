@@ -448,14 +448,21 @@ span.ingredient {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
 .social-media {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-
+.social-media-iteam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .social-media-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -465,5 +472,8 @@ span.ingredient {
   fill: #f4f4fd;
 }
 .social-media-link:hover {
+  background-color: var(--background-media, #31d0aa);
+}
+.social-media-link:focus {
   background-color: var(--background-media, #31d0aa);
 }
