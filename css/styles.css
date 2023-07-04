@@ -155,6 +155,7 @@ span.ingredient-header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1440px;
 }
 .title-hero {
   color: var(--title, #fff);
