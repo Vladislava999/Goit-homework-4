@@ -354,6 +354,7 @@ button {
 }
 .customers-bloc {
   gap: 24px;
+  display: flex;
 }
 .main-customers {
   color: var(--navyblue, #2e2f42);
@@ -374,7 +375,7 @@ button {
   align-items: center;
   justify-content: center;
   color: var(--customers-link, #8e8f99);
-  width: calc((100% - 120px) / 6);
+  width: calc((100%-120px) / 6);
   height: 88px;
 }
 .customers-link:hover {
