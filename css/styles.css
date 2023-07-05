@@ -156,6 +156,8 @@ span.ingredient-header {
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .title-hero {
   color: var(--title, #fff);
@@ -406,8 +408,11 @@ button {
 .footer-div {
   display: flex;
   align-items: baseline;
+}
+.footer-left {
   margin-right: 120px;
 }
+
 .logotipe {
   color: var(--logotipe-blu, #4d5ae5);
   font-size: 18px;
@@ -455,6 +460,7 @@ span.ingredient {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
 
 .social-media {
